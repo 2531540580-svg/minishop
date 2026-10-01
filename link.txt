@@ -1,1 +1,9 @@
+Họ và tên: Trịnh Minh Huy
+Học phần: Lập trình Web
+Đề tài: Website tĩnh Responsive MiniShop (08 trang)
+
+Đường dẫn website (GitHub Pages):
 https://2531540580-svg.github.io/minishop/
+
+Đường dẫn mã nguồn (GitHub Repository):
+https://github.com/2531540580-svg/minishop
