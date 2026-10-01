@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thông số chi tiết - MiniShop</title>
+  <title>Danh mục sản phẩm - MiniShop</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
         <ul>
           <li><a href="index.html">Trang chủ</a></li>
           <li><a href="about.html">Giới thiệu</a></li>
-          <li><a href="products.html">Sản phẩm</a></li>
+          <li><a href="products.html" class="active">Sản phẩm</a></li>
           <li><a href="services.html">Dịch vụ</a></li>
           <li><a href="gallery.html">Bộ sưu tập</a></li>
           <li><a href="blog.html">Tin tức</a></li>
@@ -25,27 +25,47 @@
   </header>
 
   <main>
-    <div class="detail-layout">
-      <div class="detail-img">
-        <img src="images/laptop.jpg" alt="Laptop MSI">
-      </div>
-      <div class="detail-info">
-        <h1 style="color: #0f172a; margin-bottom: 0.5rem;">Laptop Gaming MSI Thin A15</h1>
-        <div class="price" style="font-size: 1.5rem; margin-bottom: 1rem;">16.490.000₫</div>
-        <p>Chiếc laptop mỏng nhẹ chuyên dụng cho sinh viên IT làm đồ án, lập trình thuật toán và chơi game giải trí với hiệu năng tản nhiệt tối ưu.</p>
-        
-        <table class="specs-table">
-          <tr><th>Vi xử lý</th><td>AMD Ryzen 5 7535HS (6 nhân 12 luồng)</td></tr>
-          <tr><th>Bộ nhớ RAM</th><td>16GB DDR5 tốc độ cao</td></tr>
-          <tr><th>Ổ cứng</th><td>512GB NVMe PCIe Gen 4 SSD</td></tr>
-          <tr><th>Card đồ họa</th><td>NVIDIA GeForce RTX Series</td></tr>
-          <tr><th>Màn hình</th><td>15.6 inch FHD 144Hz IPS-Level</td></tr>
-          <tr><th>Bảo hành</th><td>24 tháng chính hãng</td></tr>
-        </table>
+    <h2 class="section-title">Tất Cả Sản Phẩm Phụ Kiện</h2>
+    <div class="grid-container">
+      <article class="card">
+        <img src="images/laptop.jpg" alt="Laptop Gaming">
+        <div class="card-body">
+          <h3>Laptop MSI Thin A15</h3>
+          <p>Hiệu năng đồ họa mạnh mẽ, tản nhiệt nâng cấp.</p>
+          <div class="price">16.490.000₫</div>
+          <a href="details.html" class="btn">Xem chi tiết</a>
+        </div>
+      </article>
 
-        <a href="products.html" class="btn btn-secondary">&larr; Quay lại danh sách</a>
-        <a href="contact.html" class="btn" style="margin-left: 0.5rem;">Tư vấn đặt mua</a>
-      </div>
+      <article class="card">
+        <img src="images/mouse.jpg" alt="Chuột MCHOSE">
+        <div class="card-body">
+          <h3>Chuột Không Dây MCHOSE G3</h3>
+          <p>Thiết kế công thái học đối xứng, pin bền bỉ.</p>
+          <div class="price">590.000₫</div>
+          <a href="details.html" class="btn">Xem chi tiết</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="images/keyboard.jpg" alt="Bàn phím cơ">
+        <div class="card-body">
+          <h3>Bàn Phím Cơ Ajazz AK680</h3>
+          <p>Switch nhạy, hỗ trợ thay switch nóng không cần hàn.</p>
+          <div class="price">499.000₫</div>
+          <a href="details.html" class="btn">Xem chi tiết</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="images/earphone.jpg" alt="Tai nghe IEM">
+        <div class="card-body">
+          <h3>Tai Nghe IEM KZ Castor</h3>
+          <p>Dây mạ bạc chống nhiễu, cách âm thụ động tốt.</p>
+          <div class="price">380.000₫</div>
+          <a href="details.html" class="btn">Xem chi tiết</a>
+        </div>
+      </article>
     </div>
   </main>
 
