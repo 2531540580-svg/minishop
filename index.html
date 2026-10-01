@@ -3,18 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MiniShop - Cửa hàng Công nghệ</title>
+  <title>MiniShop - Thiết Bị Máy Tính & Gaming Gear</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
   <header>
     <div class="header-container">
       <a href="index.html" class="logo">MiniShop</a>
       <nav>
         <ul>
           <li><a href="index.html" class="active">Trang chủ</a></li>
+          <li><a href="about.html">Giới thiệu</a></li>
           <li><a href="products.html">Sản phẩm</a></li>
+          <li><a href="services.html">Dịch vụ</a></li>
+          <li><a href="gallery.html">Bộ sưu tập</a></li>
+          <li><a href="blog.html">Tin tức</a></li>
           <li><a href="contact.html">Liên hệ</a></li>
         </ul>
       </nav>
@@ -23,39 +26,59 @@
 
   <main>
     <section class="hero">
-      <h1>Chào mừng đến với MiniShop</h1>
-      <p>Cung cấp phụ kiện máy tính, linh kiện phần cứng và Gaming Gear chính hãng.</p>
-      <a href="products.html" class="btn">Xem toàn bộ sản phẩm</a>
+      <h1>Hệ Thống Phụ Kiện & Thiết Bị Công Nghệ MiniShop</h1>
+      <p>Cung cấp giải pháp phần cứng, gaming gear và phụ kiện máy tính chính hãng, hiệu năng vượt trội cho sinh viên và lập trình viên.</p>
+      <a href="products.html" class="btn">Khám phá sản phẩm ngay</a>
     </section>
 
     <section>
-      <h2>Sản phẩm nổi bật</h2>
-      <div class="product-grid">
-        <div class="product-card">
-          <img src="images/laptop.jpg" alt="Laptop Gaming">
-          <h3>Laptop Gaming MSI Thin</h3>
-          <p class="price">16.490.000₫</p>
-          <a href="product-detail.html" class="btn">Xem chi tiết</a>
-        </div>
-        <div class="product-card">
-          <img src="images/mouse.jpg" alt="Chuột không dây">
-          <h3>Chuột Không Dây MCHOSE G3</h3>
-          <p class="price">590.000₫</p>
-          <a href="product-detail.html" class="btn">Xem chi tiết</a>
-        </div>
-        <div class="product-card">
-          <img src="images/keyboard.jpg" alt="Bàn phím cơ">
-          <h3>Bàn phím cơ Ajazz AK680</h3>
-          <p class="price">499.000₫</p>
-          <a href="product-detail.html" class="btn">Xem chi tiết</a>
-        </div>
+      <h2 class="section-title">Sản Phẩm Tiêu Biểu</h2>
+      <div class="grid-container">
+        <article class="card">
+          <img src="images/laptop.jpg" alt="MSI Thin">
+          <div class="card-body">
+            <h3>Laptop MSI Thin A15</h3>
+            <p>Trang bị chip AMD Ryzen 7000 series, màn hình tần số quét 144Hz.</p>
+            <div class="price">16.490.000₫</div>
+            <a href="details.html" class="btn">Xem chi tiết</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/mouse.jpg" alt="MCHOSE G3">
+          <div class="card-body">
+            <h3>Chuột MCHOSE G3 V2</h3>
+            <p>Mắt đọc quang học chuẩn gaming, kết nối 2.4GHz không độ trễ.</p>
+            <div class="price">590.000₫</div>
+            <a href="details.html" class="btn">Xem chi tiết</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/keyboard.jpg" alt="Ajazz AK680">
+          <div class="card-body">
+            <h3>Bàn Phím Cơ Ajazz AK680</h3>
+            <p>Layout 68 phím gọn gàng, hotswap tùy biến switch linh hoạt.</p>
+            <div class="price">499.000₫</div>
+            <a href="details.html" class="btn">Xem chi tiết</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/earphone.jpg" alt="KZ Castor">
+          <div class="card-body">
+            <h3>Tai Nghe IEM KZ Castor</h3>
+            <p>Cấu hình Dynamic Driver kép, âm bass nội lực và chi tiết cao.</p>
+            <div class="price">380.000₫</div>
+            <a href="details.html" class="btn">Xem chi tiết</a>
+          </div>
+        </article>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 MiniShop Management System. Dự án môn Lập trình Web.</p>
+    <p>&copy; 2026 MiniShop Management System. Dự án bài tập Lập trình Web.</p>
   </footer>
-
 </body>
 </html>

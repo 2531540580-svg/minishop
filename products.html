@@ -3,18 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sản phẩm - MiniShop</title>
+  <title>Thông số chi tiết - MiniShop</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
   <header>
     <div class="header-container">
       <a href="index.html" class="logo">MiniShop</a>
       <nav>
         <ul>
           <li><a href="index.html">Trang chủ</a></li>
-          <li><a href="products.html" class="active">Sản phẩm</a></li>
+          <li><a href="about.html">Giới thiệu</a></li>
+          <li><a href="products.html">Sản phẩm</a></li>
+          <li><a href="services.html">Dịch vụ</a></li>
+          <li><a href="gallery.html">Bộ sưu tập</a></li>
+          <li><a href="blog.html">Tin tức</a></li>
           <li><a href="contact.html">Liên hệ</a></li>
         </ul>
       </nav>
@@ -22,38 +25,32 @@
   </header>
 
   <main>
-    <h2>Danh sách tất cả sản phẩm</h2>
-    <div class="product-grid">
-      <div class="product-card">
-        <img src="images/laptop.jpg" alt="MSI Thin">
-        <h3>Laptop Gaming MSI Thin</h3>
-        <p class="price">16.490.000₫</p>
-        <a href="product-detail.html" class="btn">Chi tiết</a>
+    <div class="detail-layout">
+      <div class="detail-img">
+        <img src="images/laptop.jpg" alt="Laptop MSI">
       </div>
-      <div class="product-card">
-        <img src="images/mouse.jpg" alt="Chuột MCHOSE G3">
-        <h3>Chuột Không Dây MCHOSE G3</h3>
-        <p class="price">590.000₫</p>
-        <a href="product-detail.html" class="btn">Chi tiết</a>
-      </div>
-      <div class="product-card">
-        <img src="images/keyboard.jpg" alt="Bàn phím Ajazz">
-        <h3>Bàn phím cơ Ajazz AK680</h3>
-        <p class="price">499.000₫</p>
-        <a href="product-detail.html" class="btn">Chi tiết</a>
-      </div>
-      <div class="product-card">
-        <img src="images/earphone.jpg" alt="Tai nghe KZ Castor">
-        <h3>Tai nghe IEM KZ Castor</h3>
-        <p class="price">380.000₫</p>
-        <a href="product-detail.html" class="btn">Chi tiết</a>
+      <div class="detail-info">
+        <h1 style="color: #0f172a; margin-bottom: 0.5rem;">Laptop Gaming MSI Thin A15</h1>
+        <div class="price" style="font-size: 1.5rem; margin-bottom: 1rem;">16.490.000₫</div>
+        <p>Chiếc laptop mỏng nhẹ chuyên dụng cho sinh viên IT làm đồ án, lập trình thuật toán và chơi game giải trí với hiệu năng tản nhiệt tối ưu.</p>
+        
+        <table class="specs-table">
+          <tr><th>Vi xử lý</th><td>AMD Ryzen 5 7535HS (6 nhân 12 luồng)</td></tr>
+          <tr><th>Bộ nhớ RAM</th><td>16GB DDR5 tốc độ cao</td></tr>
+          <tr><th>Ổ cứng</th><td>512GB NVMe PCIe Gen 4 SSD</td></tr>
+          <tr><th>Card đồ họa</th><td>NVIDIA GeForce RTX Series</td></tr>
+          <tr><th>Màn hình</th><td>15.6 inch FHD 144Hz IPS-Level</td></tr>
+          <tr><th>Bảo hành</th><td>24 tháng chính hãng</td></tr>
+        </table>
+
+        <a href="products.html" class="btn btn-secondary">&larr; Quay lại danh sách</a>
+        <a href="contact.html" class="btn" style="margin-left: 0.5rem;">Tư vấn đặt mua</a>
       </div>
     </div>
   </main>
 
   <footer>
-    <p>&copy; 2026 MiniShop Management System. Dự án môn Lập trình Web.</p>
+    <p>&copy; 2026 MiniShop Management System. Dự án bài tập Lập trình Web.</p>
   </footer>
-
 </body>
 </html>
